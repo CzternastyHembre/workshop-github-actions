@@ -32,6 +32,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: gh-pages
+          branch: develop
           folder: dist  
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
